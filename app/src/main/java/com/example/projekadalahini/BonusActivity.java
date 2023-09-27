@@ -30,7 +30,6 @@ public class BonusActivity extends AppCompatActivity {
     static List<String> title2 = new ArrayList<>();
     int counter=0;
 
-//    String[] title;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
