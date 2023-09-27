@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/_bg__homescreen_color"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/doodle"
+       android:scaleType="centerCrop"
+        />
+
+    <View
+        android:id="@+id/rectangle_14"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        android:background="@drawable/rectangle_14_shape"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="320dp"
+        android:layout_height="448dp" />
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45">
+
+        <TextView
+            android:id="@+id/account_log_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/account_log_in_string"
+            android:layout_marginStart="60dp"
+            android:textColor="@color/account_log_in_color"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/editTextUsername"
+            android:background="@drawable/rectangle_1_shape"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="70dp"
+            android:layout_width="262dp"
+            android:layout_height="38dp"
+            android:hint="Usename"
+            android:padding="10dp"
+            android:textColorHint="@color/username_color"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            />
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="130dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.43">
+
+            <EditText   android:id="@+id/editTextPassword"
+                android:background="@drawable/rectangle_4_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="262dp"
+                android:layout_height="38dp"
+                android:hint="Password"
+                android:paddingLeft="10dp"
+                android:paddingRight="40dp"
+                android:textSize="12sp"
+                android:textColorHint="@color/username_color"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+
+                />
+
+            <ImageView android:id="@+id/vector"
+                android:src="@drawable/vector"
+                android:contentDescription="vector"
+                android:layout_marginStart="230dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="18.33dp"
+                android:layout_height="15.83dp"
+
+                />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/forgot_password_"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="160dp"
+            android:textSize="12sp"
+            android:textColor="@color/account_log_in_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/forgot_password__string"
+            />
+
+        <View
+            android:id="@+id/rectangle_13"
+            android:background="@drawable/rectangle_13_shape"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="250dp"
+            android:layout_width="260dp"
+            android:layout_height="36dp"
+            />
+
+        <TextView
+            android:id="@+id/log_in"
+            android:layout_marginTop="260dp"
+            android:layout_marginStart="110dp"
+            android:textStyle="bold"
+            android:textSize="12sp"
+            android:textColor="@color/rectangle_14_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in_string"
+            />
+
+        <ImageView
+            android:id="@+id/googleLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/sign_in"
+            android:layout_marginTop="300dp"
+            />
+
+        <TextView
+            android:id="@+id/_don_t_have_an_account__register_now"
+            android:layout_marginTop="360dp"
+            android:layout_marginStart="30dp"
+            android:gravity="center"
+            android:textSize="12sp"
+            android:textColor="@color/username_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_don_t_have_an_account__register_now_string"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.65"
+            />
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

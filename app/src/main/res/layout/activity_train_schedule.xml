@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#DDFAFF"
+    >
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/rectangle_17_x_shape"
+        />
+
+    <Spinner
+        android:layout_marginTop="20dp"
+        android:id="@+id/dropdown_train"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rectangle_35_x_shape"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/route_txt_train"
+        android:layout_marginTop="70dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rute"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jam Operasi"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="05:00 - 22:00"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_marginTop="110dp"
+        android:layout_marginStart="230dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hari Operasi"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_marginTop="130dp"
+        android:layout_marginStart="230dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senin - Minggu"
+        android:textSize="14sp"
+        android:textColor="@color/white"
+        />
+
+
+    <ListView
+        android:id="@+id/listView_train"
+        android:layout_marginTop="170dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</RelativeLayout>

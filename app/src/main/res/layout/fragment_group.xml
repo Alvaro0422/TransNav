@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content" >
+    <!--
+    /*
+     *	This content is generated from the API File Info.
+     *	(Alt+Shift+Ctrl+I).
+     *
+     *	@desc
+     *	@file 		group_list
+     *	@date 		Thursday 25th of May 2023 06:17:12 AM
+     *	@title 		Page 1
+     *	@author
+     *	@keywords
+     *	@generator 	Export Kit v1.3.figma
+     *
+     */
+    -->
+    <ScrollView android:id="@+id/group_list"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout android:id="@+id/content_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <View   android:id="@+id/_bg__group_list"
+                android:background="@drawable/_bg__group_list_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="410dp"
+                android:layout_height="800dp" />
+
+
+            <RelativeLayout android:id="@+id/group_22"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+
+                <RelativeLayout android:id="@+id/group_16"
+                    android:layout_marginTop="0dp"
+                    android:layout_marginStart="0dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <View   android:id="@+id/rectangle_19"
+                        android:background="@drawable/rectangle_19_shape"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="351dp"
+                        android:layout_height="109dp" />
+
+                    <TextView android:id="@+id/group_gabut__5_"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:textColor="@color/group_gabut__5__color"
+                        android:layout_marginLeft="118dp"
+                        android:layout_marginTop="14dp"
+                        android:layout_width="220.92dp"
+                        android:layout_height="30.5dp"
+                        android:text="@string/group_gabut__5__string"
+                        />
+
+                    <TextView android:id="@+id/halo_ges"
+                        android:textSize="13sp"
+                        android:textColor="@color/group_gabut__5__color"
+                        android:layout_marginLeft="118dp"
+                        android:layout_marginTop="43dp"
+                        android:layout_width="218.92dp"
+                        android:layout_height="29.5dp"
+                        android:text="@string/halo_ges_string"
+                        />
+
+                    <TextView android:id="@+id/_25_april_2023"
+                        android:layout_gravity="center_vertical|end"
+                        android:gravity="end"
+                        android:textSize="13sp"
+                        android:textColor="@color/private_chat_color"
+                        android:layout_marginLeft="254dp"
+                        android:layout_marginTop="80dp"
+                        android:layout_width="95dp"
+                        android:layout_height="29.5dp"
+                        android:text="@string/_25_april_2023_string"
+                        />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <ImageView android:id="@+id/image_2"
+                android:src="@drawable/image_2"
+                android:contentDescription="image_2"
+                android:layout_marginStart="50dp"
+                android:layout_marginTop="34dp"
+                android:layout_width="82dp"
+                android:layout_height="82dp" />
+
+            <RelativeLayout android:id="@+id/group_19"
+                android:layout_marginTop="712dp"
+                android:layout_marginStart="114dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <View   android:id="@+id/rectangle_13_ek2"
+                    android:background="@drawable/rectangle_13_ek2_shape"
+                    android:layout_marginStart="0dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="183dp"
+                    android:layout_height="33dp" />
+
+                <TextView android:id="@+id/create_new_group"
+                    android:textStyle="bold"
+                    android:textSize="14.83sp"
+                    android:textColor="@color/group_chat_color"
+                    android:layout_marginLeft="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_width="153.41656351089dp"
+                    android:layout_height="28.416563510895dp"
+                    android:text="@string/create_new_group_string"
+                    />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+</HorizontalScrollView>

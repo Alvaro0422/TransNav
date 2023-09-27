@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/_bg__homescreen_color"
+    android:layout_gravity="center"
+    >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/doodle_2"
+        android:scaleType="centerCrop"
+        />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"
+            >
+
+            <TextView
+                android:id="@+id/hi__anonymous_"
+                android:textStyle="bold"
+                android:textSize="14sp"
+                android:textColor="@color/hi__anonymous__color"
+                android:layout_width="140dp"
+                android:layout_height="26dp"
+                android:text="@string/hi__anonymous__string"
+                />
+
+            <TextView
+                android:id="@+id/where_would_you_like_to_go_"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold"
+                android:textSize="28sp"
+                android:textColor="@color/hi__anonymous__color"
+                android:layout_width="313dp"
+                android:layout_height="88dp"
+                android:text="@string/where_would_you_like_to_go__string"
+                />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/mask_group"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/mask_group"
+            android:contentDescription="mask_group"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            />
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.25">
+
+        <EditText
+            android:id="@+id/rectangle_1"
+            android:background="@drawable/rectangle_1_shape"
+            android:layout_width="353dp"
+            android:layout_height="38dp"
+            android:hint="Search Destination"
+            android:textSize="12sp"
+            android:textColorHint="@color/search_destination_color"
+            android:textColor="@color/black"
+            android:paddingLeft="46dp"
+            />
+
+        <ImageView
+            android:id="@+id/vector_3"
+            android:src="@drawable/vector_3"
+            android:contentDescription="vector_3"
+            android:layout_marginStart="320dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="14.67dp"
+            android:layout_height="14.65dp"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.257"
+            app:layout_constraintHorizontal_bias="0.09"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.43">
+
+        <View
+            android:id="@+id/rectangle_17"
+            android:background="@drawable/rectangle_17_shape"
+            android:layout_width="100dp"
+            android:layout_height="104dp"
+            android:layout_marginStart="140dp"
+            />
+
+        <TextView android:id="@+id/train"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/rectangle_1_color"
+            android:layout_marginLeft="165dp"
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/train_string"
+            />
+
+        <ImageView android:id="@+id/vector_ek3"
+            android:src="@drawable/vector_ek3"
+            android:contentDescription="vector_ek3"
+            android:layout_marginStart="168dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+
+        <View
+            android:id="@+id/rectangle_177"
+            android:background="@drawable/rectangle_17_shape"
+            android:layout_width="100dp"
+            android:layout_height="104dp"
+            />
+
+        <ImageView android:id="@+id/vector_ek2"
+            android:src="@drawable/vector_ek2"
+            android:contentDescription="vector_ek2"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView android:id="@+id/bus"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:textColor="@color/rectangle_1_color"
+            android:layout_marginLeft="35dp"
+            android:layout_marginTop="70dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/bus_string"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8"
+        >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <View   android:id="@+id/ellipse_3"
+                android:background="@drawable/ellipse_4_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+
+                />
+
+            <RelativeLayout android:id="@+id/tombolPojokKiriAtas"
+                android:layout_marginTop="17dp"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView android:id="@+id/mask_group_2"
+                    android:src="@drawable/mask_group_2"
+                    android:contentDescription="vector_ek5"
+                    android:layout_marginStart="5.14dp"
+                    android:layout_marginTop="0dp"
+                    android:layout_width="38.15dp"
+                    android:layout_height="38dp" />
+
+            </RelativeLayout>
+
+            <TextView android:id="@+id/schedule"
+                android:textSize="12sp"
+                android:textColor="@color/hi__anonymous__color"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="75dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/schedule_string"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            >
+
+            <View   android:id="@+id/ellipse_4"
+                android:background="@drawable/ellipse_4_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+
+                />
+
+            <RelativeLayout android:id="@+id/tombolPojokKiri"
+                android:layout_marginTop="17dp"
+                android:layout_marginStart="17dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.8"
+                app:layout_constraintHorizontal_bias="0.193"
+                >
+
+                <ImageView android:id="@+id/vector_ek6"
+                    android:src="@drawable/vector_ek6"
+                    android:contentDescription="vector_ek4"
+                    android:layout_marginStart="1.58dp"
+                    android:layout_marginTop="3.17dp"
+                    android:layout_width="34.83dp"
+                    android:layout_height="31.67dp" />
+
+            </RelativeLayout>
+
+            <TextView android:id="@+id/message"
+                android:textSize="12sp"
+                android:textColor="@color/hi__anonymous__color"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="75dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/message_string"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.845"
+                app:layout_constraintHorizontal_bias="0.18"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp">
+
+            <View   android:id="@+id/ellipse_55"
+                android:background="@drawable/ellipse_5_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+
+                />
+
+            <RelativeLayout android:id="@+id/tombolTengahAtas"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="18dp"
+                >
+
+                <RelativeLayout android:id="@+id/group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    >
+
+                    <ImageView android:id="@+id/vector_ek8"
+                        android:src="@drawable/vector_ek8"
+                        android:contentDescription="vector_ek8"
+                        android:layout_marginStart="14dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="7dp"
+                        android:layout_height="29.29dp" />
+
+                    <ImageView android:id="@+id/vector_ek9"
+                        android:src="@drawable/vector_ek9"
+                        android:contentDescription="vector_ek4"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginTop="12dp"
+                        android:layout_width="28.5dp"
+                        android:layout_height="17.42dp" />
+
+                    <ImageView android:id="@+id/vector_ek10"
+                        android:src="@drawable/vector_ek10"
+                        android:contentDescription="vector_ek5"
+                        android:layout_marginStart="11dp"
+                        android:layout_marginTop="35dp"
+                        android:layout_width="12.67dp"
+                        android:layout_height="10dp" />
+
+                </RelativeLayout>
+
+            </RelativeLayout>
+
+            <TextView android:id="@+id/Route"
+                android:textSize="12sp"
+                android:textColor="@color/hi__anonymous__color"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/route_string"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.709"
+                app:layout_constraintHorizontal_bias="0.5"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_marginStart="100dp">
+
+            <View   android:id="@+id/ellipse_4_ek1"
+                android:background="@drawable/ellipse_6_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                />
+
+            <RelativeLayout android:id="@+id/tombolTengahBawah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.802"
+                app:layout_constraintHorizontal_bias="0.5"
+                >
+
+                <ImageView android:id="@+id/vector_ek7"
+                    android:src="@drawable/vector_ek7"
+                    android:contentDescription="vector_ek4"
+                    android:layout_marginStart="19dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="34.83dp"
+                    android:layout_height="31.67dp" />
+
+            </RelativeLayout>
+
+            <TextView android:id="@+id/forum"
+                android:textSize="12sp"
+                android:layout_marginTop="75dp"
+                android:layout_marginStart="19dp"
+                android:textColor="@color/hi__anonymous__color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/forum_string"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.865"
+                app:layout_constraintHorizontal_bias="0.5"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            >
+
+            <View   android:id="@+id/ellipse_5"
+                android:background="@drawable/ellipse_5_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                />
+
+            <RelativeLayout android:id="@+id/tomboPojokKananAtas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="18dp"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.64"
+                app:layout_constraintHorizontal_bias="0.77"
+                >
+
+                <ImageView android:id="@+id/vector_ek5"
+                    android:src="@drawable/vector_ek5"
+                    android:contentDescription="vector_ek5"
+                    android:layout_width="38.15dp"
+                    android:layout_height="32dp" />
+
+            </RelativeLayout>
+
+            <TextView android:id="@+id/history"
+                android:textSize="12sp"
+                android:textColor="@color/hi__anonymous__color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="75dp"
+                android:text="@string/history_string"
+
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.71"
+                app:layout_constraintHorizontal_bias="0.78"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="100dp"
+            >
+
+            <View   android:id="@+id/ellipse_6"
+                android:background="@drawable/ellipse_6_shape"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                />
+
+            <RelativeLayout android:id="@+id/tombolPojokKananBawah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="18dp"
+                android:layout_marginStart="18dp"
+                >
+
+                <ImageView android:id="@+id/vector_ek4"
+                    android:src="@drawable/vector_ek4"
+                    android:contentDescription="vector_ek4"
+                    android:layout_marginStart="1.58dp"
+                    android:layout_marginTop="3.17dp"
+                    android:layout_width="34.83dp"
+                    android:layout_height="31.67dp" />
+
+            </RelativeLayout>
+
+            <TextView android:id="@+id/bonus"
+                android:textSize="12sp"
+                android:textColor="@color/hi__anonymous__color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="18dp"
+                android:layout_marginTop="75dp"
+                android:text="@string/bonus_string"
+                />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
