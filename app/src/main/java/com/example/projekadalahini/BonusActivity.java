@@ -22,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class BonusActivity extends AppCompatActivity {
-    String currEmail, historyEmail;
+    String currEmail;
     String emailSimpan;
     TextView history;
     ListView lv;
